@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy: cryptic-badlands-80099
+  provider: heroku
+  api_key:
+    secure: FnEgB2I7I5ggucfGoW7r7bv3DhcRat7Tbx5Ajfu7RJu/PXQwAt8o4mCd0RxmEfqe4kDWYhUEWtIBDltJemVHi6npvg4b5DQoCjeEQm7/SLTk7RM/zHKEGdq4tBNC3JObbGaGSmf4MZIEoOT6q2RD/u5oDstbvrLC1pajczgEwtF4V9qMK87AnlnBlIlyAe4QeoSDMwAh8xqVIglw20MaUa253EuvfQYfkslboippFuukPB1pLJaZZPaK1ekesupwyU3jsRiuah5eFcyl2378lFSj4gloJLr/ak+fGiZer7NIrvUt3XWu3jaTMNu5oLYnl4S5qmPTuJiX14RIG+KEKZYy5wj2QqJG6WOI3U6P00NDY/u9aRtp3koQ63So16KX1R1SvJ3oc9jnuy1XD++dXL2rDsIiBUdxPnoIehPaI7+fHChqZI8hmLX6GmS/dxTJOP4jHtUdLVE7Q6IYw3rNN2jnFHN8rD4rGBIbOnbS7qRaZyAx2wHci+Aiv9iRPCbUw0L8O6g2fygbiuD6In4VvulZHc43zhpzkwNEYcbCEWG54bjB6PZYazPj/FrArq5/NixqRd5cg32Ir327IsndiuH6Hj0XxgXJNonFp9cRrbiZT3SVBYVKKxTI7TbOSl7RcApeQm2UWWsm/aeh4mjDIrdv2P2GnMw3iugZOu3Ydyo=
+  app: node-shoppinglist-integration-tests
+  on:
+    repo: tranpeter08/node-shoppinglist-integration-tests
+    branch: tests-for-recipes
